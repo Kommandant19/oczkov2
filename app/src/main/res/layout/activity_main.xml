@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/material_dynamic_neutral_variant60"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Player 1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/p1_img1"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p1_img2"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p1_img3"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/p1_img4"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p1_img5"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p1_img6"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/draw_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Draw " />
+
+            <Button
+                android:id="@+id/pass_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pass" />
+
+            <Button
+                android:id="@+id/surrender_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Surrender" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Player 2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/p2_img1"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p2_img2"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p2_img3"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/p2_img4"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p2_img5"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/p2_img6"
+                android:layout_width="32dp"
+                android:layout_height="128dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Score: "
+            android:layout_gravity="center" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
